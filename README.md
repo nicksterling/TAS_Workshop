@@ -5,7 +5,8 @@ To generate this workshop you'll need [Hugo](https://gohugo.io/) installed.
 Once that's installed cd into the root of the project and run this:
 
 ```
-git submodule add https://github.com/alex-shpak/hugo-book themes/book
+$ git submodule add https://github.com/alex-shpak/hugo-book themes/book
+$ git submodule update --init --recursive
 ```
 
 Then to use the live server on [http://localhost:1313](http://localhost:1313)
